@@ -3,15 +3,16 @@
 #include <time.h>
 /**
  * main - Entry point
- *Description: Determine the last digit entered
- *Return:  0 (success)
+ * Description: checks on the last digit of the assigned var
+ * Return: 0 (success)
  */
 int main(void)
 {
-	int n, k;
+	int n, m;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	k = n % 10;
 	if (k > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, k);
@@ -26,4 +27,3 @@ int main(void)
 	}
 	return (0);
 }
-
