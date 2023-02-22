@@ -7,15 +7,8 @@
  */
 int _islower(int c)
 {
-	char c;
-
-	for (c = 'A'; c <= 'A'; c++)
-	{
-		putchar ('0');
-		for (c = 'a'; c <= 'b'; c++)
-		{
-			putchar('1');
-		}
-	}
-	return (0);
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	else
+		return (0);
 }
