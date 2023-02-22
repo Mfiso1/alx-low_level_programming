@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -8,5 +7,15 @@
  */
 int _islower(int c)
 {
-	return (c >= 'a' && c <= 'z');
+	char c;
+
+	for (c = 'A'; c <= 'A'; c++)
+	{
+		putchar ('0');
+		for (c = 'a'; c <= 'b'; c++)
+		{
+			putchar('1');
+		}
+	}
+	return (0);
 }
