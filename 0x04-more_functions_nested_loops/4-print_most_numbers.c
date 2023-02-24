@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * print_most_numbers - prints most except 2 and 4
- *
- * Return: void
+ * print_most_numbers - print numbers to 9 and exlclude 2, 4
  */
 void print_most_numbers(void)
 {
