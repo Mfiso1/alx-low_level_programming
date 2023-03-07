@@ -1,22 +1,33 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * _strchr - a function that locates a character in a string.
- * @s: an input string to search in
- * @c: an input character to locate into string s
- * Return: returns pointer to c position
+ * _strspn - gets the length of a preix substring
+ * @s: string to evaluate
+ * @accept: string containing the list of characters to match in s
+ * Return:  the number of bytes in the initial segment of
+ * s which consist only of bytes from accept
  */
-char *_strchr(char *s, char c)
+unsigned int _strspn(char *s, char *accept)
 {
+	unsigned int i = 0;
+	int j;
+
 
 	while (*s)
 	{
-		if (c == *s)
-			return (s);
+		for (j = 0; accept[j]; j++)
+		{
+			if (accept[j] == *s)
+			{
+				i++;
+				break;
+			}
+
+			else if ((accept[j + 1]) == '\0')
+				return (i);
+		}
 		s++;
 	}
-	if (c == *s)
-		return (s);
-	return (NULL);
+
+	return (i);
 }
