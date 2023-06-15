@@ -16,7 +16,7 @@ int **alloc_grid(int width, int height)
 	if (width <= 0 || height <= 0)
 		return (NULL);
 
-	twodimen = malloc(sizeof(int *) * height);
+	arry = malloc(sizeof(int *) * height);
 
 	if (arry == NULL)
 		return (NULL);
