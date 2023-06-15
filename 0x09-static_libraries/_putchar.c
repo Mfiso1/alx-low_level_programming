@@ -1,5 +1,4 @@
 #include <unistd.h>
-
 /**
  * _putchar - writes charector c
  * @c: Input
