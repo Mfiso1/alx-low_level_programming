@@ -1,1 +1,0 @@
-Creatin a static library
