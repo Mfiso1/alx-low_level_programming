@@ -1,4 +1,5 @@
-	![image](https://github.com/Mfiso1/alx-low_level_programming/assets/122856548/94da4492-f117-406c-9f51-c779f6da8daf)
+![image](https://github.com/Mfiso1/alx-low_level_programming/assets/122856548/e2c3fc6b-6403-4a41-b822-79e38225bb1f)
+
 	
 				ASSINGNMENT - 0x08. C - RECURSION
 
