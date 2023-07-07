@@ -1,4 +1,5 @@
-		
+	![image](https://github.com/Mfiso1/alx-low_level_programming/assets/122856548/94da4492-f117-406c-9f51-c779f6da8daf)
+	
 				ASSINGNMENT - 0x08. C - RECURSION
 
 1. Write a function that prints a string, followed by a new line - 0-puts_recursion.c
