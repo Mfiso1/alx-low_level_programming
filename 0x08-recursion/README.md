@@ -1,7 +1,6 @@
 ![image](https://github.com/Mfiso1/alx-low_level_programming/assets/122856548/e2c3fc6b-6403-4a41-b822-79e38225bb1f)
 
-	
- ASSINGNMENT - 0x08. C - RECURSION
+			ASSINGNMENT - 0x08. C - RECURSION
 
 1. Write a function that prints a string, followed by a new line - 0-puts_recursion.c
 2. Write a function that prints a string in reverse - 1-print_rev_recursion.c
