@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdlib.h>
 
 /**
  * str_concat - concatenate two strings
@@ -20,7 +21,7 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	strcpy(output, s1);
-	strcpy(output, s2);
+	strcat(output, s2);
 
 	return (output);
 }
