@@ -1,25 +1,27 @@
 #include "function_pointers.h"
 
 /**
- * int_index - searches for an integer.
- * @array: array to search in
- * @size: size of the array
- * @cmp: pointer to the comparing function
- * Return: index of the first element for which the cmp
- * function does not return 0, or -1 if no match is found
- * or size is negative
+ * int_index - searches for integer
+ * @array: array to search
+ * @size: size of array
+ * @cmp: function used to compare
+ *
+ * Return: first index for which cmp doesn't return 0, or -1
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	int c;
+	int a, b;
 
-	if (array && cmp)
+	if (size > 0 && array && cmp)
 	{
-		for (c = 0; c < size; c++)
+		for (a = 0; a < size; a++)
 		{
-			if (cmp(array[c]) != 0)
-				return (i);
+			r = cmp(array[a]);
+			if (b)
+				break;
 		}
+		if (a < size)
+			return (a);
 	}
 	return (-1);
 }
