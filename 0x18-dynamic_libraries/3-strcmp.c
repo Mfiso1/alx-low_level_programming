@@ -1,5 +1,4 @@
-#!/bin/bash
-include "main.h"
+#include "main.h"
 
 /**
  * _strcmp - compares two strings
