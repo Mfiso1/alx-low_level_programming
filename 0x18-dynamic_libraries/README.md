@@ -1,1 +1,1 @@
-Creating a static library
+Creating a dynamic  library
